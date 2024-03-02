@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <title>Document</title>
+   <link rel="stylesheet" href="styel.css">
+   <script src="Form.js"></script>
+   <style>
+   .field{
+      margin-bottom: 10px;
+      padding-bottom: 20px;
+      position: relative;
+   }
+.field span{
+   position: absolute;
+   top: 20px;
+   right: 30px;
+   visibility: hidden;
+}
+.field small{
+   position: absolute;
+   top: 20px;
+   right: 30px;
+   visibility: hidden;
+}
+   </style>
+</head>
+<body>
+   <form id="form">
+      <!-- Firstname field -->
+      <div class="field">
+         <label for="fname" class="label" >First Name : </label>
+         <input type="text" placeholder="enter your first name " id="fname">
+         <span class="material-symbols-outlined">
+            check_circle
+         </span>
+         <span class="material-symbols-outlined">
+            error
+         </span>
+         <small>Error meassage</small>
+      </div>
+      <!-- Last name field -->
+      <div class="field">
+         <label for="fname" class="label" >Last Name : </label>
+         <input type="text" placeholder="enter your Last name " id="lname">
+         <span class="material-symbols-outlined">
+            check_circle
+         </span>
+         <span class="material-symbols-outlined">
+            error
+         </span>
+         <small>Error meassage</small>
+      </div>
+      <!-- email field -->
+      <div class="field">
+         <label for="fname" class="label" >Email : </label>
+         <input type="email" placeholder="enter your email" id="email">
+         <span class="material-symbols-outlined">
+            check_circle
+         </span>
+         <span class="material-symbols-outlined">
+            error
+         </span>
+         <small>Error meassage</small>
+      </div>
+      
+      <!-- Password -->
+      <div class="field">
+         <label for="fname"  class="label"  >Password : </label>
+         <input type="password" placeholder="enter your password " id="password">
+         <span class="material-symbols-outlined">
+            check_circle
+         </span>
+         <span class="material-symbols-outlined">
+            error
+         </span>
+         <small>Error meassage</small>
+      </div>
+      <!-- Conform password -->
+      <div class="field">
+         <label for="fname" class="label"> Conform Password : </label>
+         <input type="password" placeholder="enter your Conform password" id="cpassword">
+         <span class="material-symbols-outlined">
+            check_circle
+         </span>
+         <span class="material-symbols-outlined">
+            error
+         </span>
+         <small>Error meassage</small>
+      </div>
+           <!-- AGE -->
+           <div class="field">
+            <label for="fname" class="label"> Age: </label>
+            <input type="number" placeholder="enter your age" id="cage">
+            <span class="material-symbols-outlined">
+               check_circle
+            </span>
+            <span class="material-symbols-outlined">
+               error
+            </span>
+            <small>Error meassage</small>
+         </div>
+      <!-- field Check box -->
+      <input type="checkbox" name="tc" id="tc">
+      <label for="">I Agree this all counditiones</label>
+      <small>Error meassage </small>
+
+   <input type="submit" class="button" >
+
+   </form>
+</body>
+</html>
