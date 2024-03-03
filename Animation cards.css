@@ -116,4 +116,9 @@ p{
 }
 .description{
    width: 20px !important;
-} 
+}
+p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:whitesmoke;
+   font-size: 15px;
+}
